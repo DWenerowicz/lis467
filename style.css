@@ -25,11 +25,16 @@ header h1{
     color:#cfc8ea;
 }
 
-nav {
-    margin: 20px 0;
-    display: flex;
-    gap: 10px;  
-    font-family:'EB Garamond', serif;
+nav{
+    font-family:'Cinzel', serif;
+    letter-spacing:.5px;
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+    padding:8px;
+    background:rgba(236, 238, 241, 0.75);
 }
 
 h2 {
