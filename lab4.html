@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="lab4_style.css">
+</head>
+
+
+<body>
+
+    <header class="header-site">
+        <h1>Welcome to Lab 4</h1>
+
+        <nav class="nav-one">
+            <a href="#csspositioning">CSS Positioning</a>
+            <a href="#cssflexbox">CSS Flexbox</a>
+            <a href="#cssgrid">CSS Grid</a>
+        </nav>
+    </header>
+
+<main class="p-content">
+
+    <section class="intro">
+        <h1>CSS Positioning and Layout Examples</h1>
+    </section>
+
+    <section id="positioning" class="example-section">
+        <h2>CSS Positioning</h2>
+        <p>This section demonstrates different CSS positioning techniques such as static, relative, absolute, and fixed positioning.</p>
+
+        <article class="demo-panel">
+            <h3>Static Positioning</h3>
+            <p>Static is the default positioning for HTML elements. Elements with static positioning are positioned according to the normal flow of the document.</p>
+
+            <div class="demo-stage">
+                <div class="position-box">Standard Box</div>
+                <div class="position-box static-example">Static Box</div>
+                <div class ="position-box">Standard Box</div>
+            </div>
+
+        </article>
+
+        <article class="demo-panel">
+            <h3>Relative Positioning</h3>
+            <p>The relative positioning allows you to position an element relative to its normal position whithout affectin the original space for the box.</p>
+
+            <div class="demo-stage">
+                <div class="position-box">Standard Box</div>
+                <div class="position-box relative-example">Relative Box</div>
+                <div class ="position-box">Standard Box</div>
+            </div>
+
+        </article>
+
+        <article class="demo-panel">
+            <h3>Absolute Positioning</h3>
+            <p>Elements with an absolute position can be moved around the page without affecting the layout of other elements.</p>
+
+            <div class="absolute-example">
+                <span class="absolute-label">Absolute Box</span>
+                <h4>Standard Box in a static position</h4>
+                <div class ="position-box">Standard Box</div>
+            </div>
+
+        </article>
+
+        <article class="demo-panel">
+            <h3>Fixed Positioning</h3>
+            <p>The header on the screen is in a fixed position, meaning it stays in place even when the page is scrolled.</p>
+        
+        </article>
+
+    </section>
+
+
+    <section id="flexbox" class="lesson-section">
+        <h2>CSS Flexbox Layout</h2>
+        <p>The flexbox is optimal for elements that are aligning content in one direction</p>
+
+        <div class="flexbox-example">
+            <div class="flex-item">Box One</div>
+            <div class="flex-item">Box Two</div>
+            <div class="flex-item">Box Three</div>
+            <div class="flex-item">Box Four</div>
+        </div>
+
+    </section>
+
+    <section id="grid" class="lesson-section">
+        <h2>CSS Grid Layout</h2>
+        <p>The grid layout is optimal for content utilzing two dimensions, such as rows and columns as part of one group</p>
+        <div class="grid-demo">
+            <article class="grid-item">
+                <span class="item-number">1</span>
+                <h3>Box One</h3>
+            </article>
+
+            <article class="grid-item">
+                <span class="item-number">2</span>
+                <h3>Box Two</h3>
+            </article>
+
+            <article class="grid-item">
+                <span class="item-number">3</span>
+                <h3>Box Three</h3>
+            </article>
+
+            <article class="grid-item">
+                <span class="item-number">4</span>
+                <h3>Box Four</h3>
+            </article>
+
+            <article class="grid-item">
+                <span class="item-number">5</span>
+                <h3>Box Five</h3>
+            </article>
+
+            <article class="grid-item">
+                <span class="item-number">6</span>
+                <h3>Box Six</h3>
+            </article>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
